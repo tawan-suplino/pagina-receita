@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+#cabeçalho {
+  background-image: url(/images/hero_bolo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.fundo {
+  background-color: #ff6b28;
+  padding: 15px;
+  text-align: center;
+}
+h1,
+h3 {
+  color: #ff6b28;
+}
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+main {
+  margin: auto;
+  max-width: 990px;
+  padding: 0 40px;
+  margin-top: 100px;
+}
+
+section {
+  padding: 70px 100px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+section:hover {
+  box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25); /*Criação de sombra  */
+}
+
+ul {
+  margin-bottom: 50px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+p,
+li {
+  margin-bottom: 14px;
+  line-height: 28px;
+}
+
+.Ingredientes {
+  cursor: url(/images/cursor_ingredientes.png), default; /* Tem como duas opçoes para url e , default ou auto */
+}
+.modo-preparo {
+  cursor: url(/images/cursor_preparo.png), default; /* Tem como duas opçoes para url e , default ou auto */
+}
+
+.intrucoes {
+  cursor: url(/images/cursor_intrucoes.png), default; /* Tem como duas opçoes para url e , default ou auto */
+}
+
+footer {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+footer > p {
+  max-width: 500px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 24px;
+}
+p>a {
+  text-decoration: none;
+  color: white;
+}
